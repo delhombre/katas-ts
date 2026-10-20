@@ -1,0 +1,19 @@
+{
+  "name": "katas-ts",
+  "version": "1.0.0",
+  "description": "Katas d'algorithmique en TypeScript, pratiqués en TDD avec Vitest",
+  "scripts": {
+    "test": "vitest",
+    "test:run": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "author": "delhombre",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  },
+  "private": true,
+  "packageManager": "pnpm@12.14.0"
+}
